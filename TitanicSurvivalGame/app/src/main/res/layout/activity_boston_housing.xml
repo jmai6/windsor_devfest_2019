@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <ScrollView
+      android:id="@+id/ScrollView01"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:scrollbars="vertical"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        >
+      <TextView
+          android:id="@+id/crime_rate_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="crime rate per capita: 0.5"
+          />
+      <SeekBar
+          android:id="@+id/crime_rate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="800"
+          android:min="0"
+          android:progress="5"
+          />
+
+      <TextView
+          android:id="@+id/large_lots_zone_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="number of large residential lots in town: 5"
+          />
+      <SeekBar
+          android:id="@+id/large_lots_zone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="100"
+          android:min="0"
+          android:progress="5"
+          />
+
+      <TextView
+          android:id="@+id/industrial_zone_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="number of industrial zones in town: 2"
+          />
+      <SeekBar
+          android:id="@+id/industrial_zone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="30"
+          android:min="0"
+          android:progress="2"
+          />
+
+      <TextView
+          android:id="@+id/air_pollution_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="nitrogen oxides concentration: 0.15"
+          />
+      <SeekBar
+          android:id="@+id/air_pollution"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="50"
+          android:min="0"
+          android:progress="15"
+          />
+
+      <TextView
+          android:id="@+id/num_rooms_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="num_rooms: 5"
+          />
+      <SeekBar
+          android:id="@+id/num_rooms"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="20"
+          android:min="0"
+          android:progress="5"
+          />
+
+      <TextView
+          android:id="@+id/old_houses_proportion_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="proportion of units built prior to 1940: 50"
+          />
+      <SeekBar
+          android:id="@+id/old_houses_proportion"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="100"
+          android:min="0"
+          android:progress="50"
+          />
+
+      <TextView
+          android:id="@+id/dis_employment_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="mean of distances to Boston employment centers: 2.2"
+          />
+      <SeekBar
+          android:id="@+id/dis_employment"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="150"
+          android:min="0"
+          android:progress="22"
+          />
+
+      <TextView
+          android:id="@+id/accessibility_highway_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="accessibility to radial highways: 3.5"
+          />
+      <SeekBar
+          android:id="@+id/accessibility_highway"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="250"
+          android:min="0"
+          android:progress="35"
+          />
+
+      <TextView
+          android:id="@+id/tax_rate_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="tax per $10,000: 312"
+          />
+      <SeekBar
+          android:id="@+id/tax_rate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="750"
+          android:min="150"
+          android:progress="312"
+          />
+
+      <TextView
+          android:id="@+id/pupil_teacher_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:layout_marginTop="8dp"
+          android:text="pupil to teacher ratio: 20"
+          />
+      <SeekBar
+          android:id="@+id/pupil_teacher"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:max="25"
+          android:min="10"
+          android:progress="20"
+          />
+      <Button
+          android:id="@+id/btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:text="Can you afford?"
+          />
+
+    </LinearLayout>
+  </ScrollView>
+  <include layout="@layout/progress_overlay"/>
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<resources>
+  <string name="app_name">TitanicSurvivalGame</string>
+
+  <string name="titanic_survival">Titanic Survival</string>
+  <string name="boston_housing">Boston Housing</string>
+
+  <string name="gender_prompt">choose a gender</string>
+  <string name="class_prompt">choose cabin class</string>
+
+  <string-array name="gender_arrays">
+    <item>male</item>
+    <item>female</item>
+  </string-array>
+
+  <string-array name="class_arrays">
+    <item>1st</item>
+    <item>2nd</item>
+    <item>3rd</item>
+  </string-array>
+
+</resources>

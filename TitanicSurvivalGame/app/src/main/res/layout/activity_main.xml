@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <Button
+      android:id="@+id/titanic_survival"
+      android:layout_width="305dp"
+      android:layout_height="38dp"
+      android:text="@string/titanic_survival"
+      app:layout_constraintBottom_toTopOf="@+id/boston_housing"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.506"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.802"
+      />
+  <Button
+      android:id="@+id/boston_housing"
+      android:layout_width="305dp"
+      android:layout_height="41dp"
+      android:text="@string/boston_housing"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+</android.support.constraint.ConstraintLayout>
